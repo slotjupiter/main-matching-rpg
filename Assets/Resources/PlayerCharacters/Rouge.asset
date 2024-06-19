@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba0aae1249762d4983bb7928aecd942, type: 3}
+  m_Name: Rouge
+  m_EditorClassIdentifier: 
+  info:
+    Sprite: {fileID: -1033951122, guid: 559c52bbe7bdc7447b3ca41ff6bf29f2, type: 3}
+    Name: Rouge
+    Description: 
+  hp: 100
+  atk: 4
+  def: 1
+  spd: 4
+  characterAbility: {fileID: 11400000, guid: eb0e5a9293e25b04297e69aa9c51993b, type: 2}

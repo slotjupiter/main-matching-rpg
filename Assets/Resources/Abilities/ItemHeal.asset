@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ac00fecdebb0a42926823b5ec77388, type: 3}
+  m_Name: ItemHeal
+  m_EditorClassIdentifier: 
+  info:
+    Sprite: {fileID: -1842131469, guid: 559c52bbe7bdc7447b3ca41ff6bf29f2, type: 3}
+    Name: Heal
+    Description: 
+  side: 0
+  beforeAbility:
+    condition: 0
+    target: 0
+    selectedAbility: 0
+    ability:
+      rid: -2
+  afterAbility:
+    condition: 0
+    target: 0
+    selectedAbility: 0
+    ability:
+      rid: -2
+  matchingAbility:
+    condition: 0
+    target: 0
+    selectedAbility: 0
+    ability:
+      rid: -2
+  flipAbility:
+    condition: 0
+    target: 0
+    selectedAbility: 0
+    ability:
+      rid: -2
+  endTurnAbility:
+    condition: 0
+    target: 0
+    selectedAbility: 0
+    ability:
+      rid: -2
+  normalAbility:
+    condition: 3
+    target: 1
+    selectedAbility: 0
+    ability:
+      rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
